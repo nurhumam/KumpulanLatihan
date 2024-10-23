@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    form{
+        background-color: bisque;
+        width: 40%;
+    }
+    .judul{
+        text-align: center;
+        background-color: aqua;
+    }
+    .artikel{
+        text-align: justify;
+    }
+</style>
+<body>
+
+    <header id="Home">
+        <div class="judul">
+            <h1>TUTORIAL HTML EPS 3</h1>
+            <a href="#Home">Home</a>
+            <a href="#Materi">Materi</a>
+            <a href="#Ulasan">Ulasan</a>
+            <a href="#Kontak">Kontak</a><br>
+        </div>
+    </header>
+
+    <hr>
+
+    <section id="Materi">
+        <div class="artikel">
+            <article>
+                <h2>#Artikel Pertama</h2>
+                <p>Materi ini merupakan bagian terakhir dari seri HTML yang mencakup elemen-elemen penting 
+                    dalam pengembangan web. materi ini akan mengajari lebih dalam konsep HTML5, 
+                    terutama terkait elemen semantik dan non-semantik, serta implementasi Form yang sangat 
+                    penting untuk berinteraksi dengan pengguna. Ini merupakan dasar yang akan mendukung 
+                    pemahaman lebih lanjut saat masuk ke pembelajaran CSS pada modul berikutnya</p>
+            </article>
+        </div>
+
+        <div>
+            <h3>Tonton Video Kami di YouTube</h3>
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/rNdRcJXrtnM" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <div>
+            <h3>Audio vidio diatas</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Browser Anda tidak mendukung audio.
+            </audio>
+        </div>
+
+        <P>Link youtube <a href="https://www.youtube.com/watch?v=rNdRcJXrtnM">click here</a></P>
+    </section>
+
+    <hr>
+
+    <aside id="Ulasan">
+        <h3>Berikan ulasan anda mengenai materi diatas</h3>
+        <form>
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name"><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+
+            <label for="gender">Gender:</label><br>
+            <input type="radio" id="gender" name="laki-laki">laki-laki<br>
+            <input type="radio" id="gender" name="perempuan">perempuan<br>
+
+            <label for="materi">materi:</label>
+            <select id="materi" name="materi">
+                <option value="elemen_semantik">elemen semantik</option>
+                <option value="elemen_generik">elemen generik</option>
+            </select><br>
+    
+            <label for="message">Pesan:</label><br>
+            <textarea id="textarea" name="message" rows="4"></textarea><br>
+    
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </aside>
+
+    <hr><br>
+
+    <footer id="Kontak">
+        <h3><strong>hubungi saya:</strong></h3>
+        <a href="https://www.instagram.com/nur.humamm/profilecard/?igsh=MXB5eGg5c2Vob2lkMQ==">Instagram</a>
+        <a href="https://www.facebook.com/nurul.humam.77?mibextid=ZbWKwL">Facebook</a><br>
+        <p>&copy; 2024 Blog Tutorial HTML. Semua hak cipta dilindungi.</p>
+    </footer>
+    
+</body>
+</html>
