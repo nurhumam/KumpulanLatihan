@@ -3,193 +3,141 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Innovators - Your Future in Technology</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-        }
-
-        /* Navigation Bar */
-        nav {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        nav ul {
-            list-style-type: none;
-            display: flex;
-        }
-
-        nav ul li {
-            margin: 0 15px;
-        }
-
-        nav ul li a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav ul li a:hover {
-            color: #ff9800;
-        }
-
-        /* Layout */
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 3fr;
-            gap: 20px;
-            padding: 20px;
-        }
-
-        /* Sidebar */
-        .sidebar {
-            background-color: #f4f4f4;
-            padding: 15px;
-            border-radius: 8px;
-        }
-
-        .sidebar h3 {
-            margin-bottom: 15px;
-        }
-
-        .sidebar ul {
-            list-style: none;
-        }
-
-        .sidebar ul li {
-            margin: 10px 0;
-        }
-
-        .sidebar ul li a {
-            text-decoration: none;
-            color: #333;
-        }
-
-        .sidebar ul li a:hover {
-            color: #ff9800;
-        }
-
-        /* Main Content */
-        .content {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-
-        .content-section {
-            display: none;
-        }
-
-        .content-section:target {
-            display: block;
-        }
-
-        #welcome {
-            display: block;
-        }
-
-        /* Flexbox Footer */
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        footer .social-media a {
-            color: white;
-            margin: 0 10px;
-            text-decoration: none;
-        }
-
-        footer .social-media a:hover {
-            color: #ff9800;
-        }
-    </style>
+    <title>Kopi Sejati - Menu</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Navigation -->
     <nav>
         <div class="logo">
-            <h1>Tech Innovators</h1>
+            <h1>Kopi Sejati</h1>
         </div>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#Welcome">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Main Content Area -->
     <div class="container">
-        <!-- Sidebar -->
         <aside class="sidebar">
             <h3>Our Solutions</h3>
             <ul>
-                <li><a href="#artificial">Artificial Intelligence</a></li>
-                <li><a href="#cloud">Cloud Computing</a></li>
-                <li><a href="#cybersecurity">Cybersecurity</a></li>
-                <li><a href="#data">Data Analytics</a></li>
+                <li><a href="#menuKopi">Kopi</a></li>
+                <li><a href="#menuMakanan">Makanan</a></li>
+                <li><a href="#menuSnack">Snack</a></li>
             </ul>
         </aside>
 
-        <!-- Main Content -->
-        <section class="content">
-            <!-- Default Section -->
-            <div id="welcome" class="content-section">
-                <h2>Welcome to Tech Innovators</h2>
-                <p>At Tech Innovators, we believe in pushing the boundaries of what's possible. Our team of experts is dedicated to delivering cutting-edge technology solutions tailored to your needs. From artificial intelligence to cloud computing, we have the tools and expertise to help your business thrive in the digital age.</p>
-                <p>Our goal is to create innovative solutions that not only solve today's challenges but also anticipate tomorrow's needs. Join us on a journey to redefine the future of technology.</p>
+        <div class="content">
+            <div id="Welcome" class="welcome-section">
+                <h2>Selamat Datang di Kopi Sejati</h2>
+                <p>Kami menyajikan kopi berkualitas terbaik, serta makanan dan snack yang lezat. Silakan pilih menu kopi, makanan, atau snack untuk melihat lebih banyak detail.</p>
             </div>
 
-            <!-- Artificial Intelligence Section -->
-            <div id="artificial" class="content-section">
-                <h2>Artificial Intelligence</h2>
-                <p>Artificial Intelligence (AI) is transforming industries by automating tasks, making predictions, and enhancing human decision-making. At Tech Innovators, we provide AI solutions that empower businesses to leverage data, optimize operations, and drive growth.</p>
+            <div id="menuKopi" class="menu-section">
+                <h2>Menu Kopi</h2>
+                <p>Rasakan berbagai pilihan kopi terbaik yang kami sediakan.</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <h3>Espresso</h3>
+                        <p>Kopi hitam pekat dengan rasa yang kuat, diseduh langsung dari biji kopi pilihan.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Americano</h3>
+                        <p>Kopi hitam yang dicampur air panas, memberikan rasa kopi yang lebih ringan dibanding espresso.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Cappuccino</h3>
+                        <p>Kombinasi espresso dengan susu hangat dan busa susu yang lembut di atasnya.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Latte</h3>
+                        <p>Espresso yang dipadukan dengan banyak susu, menciptakan minuman kopi yang creamy dan halus.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Macchiato</h3>
+                        <p>Espresso dengan sedikit busa susu di atasnya, memberikan rasa kopi yang kuat dengan sedikit kelembutan.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Mocha</h3>
+                        <p>Kombinasi espresso, cokelat, dan susu, menciptakan rasa kopi yang manis dan kaya.</p>
+                    </div>
+                </div>
+                <p><strong>Total Menu Kopi:</strong> 6 item</p>
             </div>
 
-            <!-- Cloud Computing Section -->
-            <div id="cloud" class="content-section">
-                <h2>Cloud Computing</h2>
-                <p>Cloud Computing offers scalable and flexible solutions for businesses to store, manage, and process data. Our cloud services ensure that your business remains agile and competitive, with access to the latest technologies at your fingertips.</p>
+            <div id="menuMakanan" class="menu-section">
+                <h2>Menu Makanan</h2>
+                <p>Nikmati berbagai pilihan makanan lezat yang cocok untuk menemani kopi Anda.</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <h3>Sandwich</h3>
+                        <p>Roti panggang dengan isian daging, keju, dan sayuran segar.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Salad</h3>
+                        <p>Salad segar dengan berbagai sayuran dan dressing pilihan.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Pasta</h3>
+                        <p>Pasta dengan saus bolognese atau alfredo yang creamy.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Panini</h3>
+                        <p>Roti panggang isi daging panggang dengan keju leleh.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Quiche</h3>
+                        <p>Kue gurih berisi telur, keju, dan daging atau sayuran.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Burger</h3>
+                        <p>Patty daging sapi, keju, dan sayuran segar yang diapit roti lembut.</p>
+                    </div>
+                </div>
+                <p><strong>Total Menu Makanan:</strong> 6 item</p>
             </div>
 
-            <!-- Cybersecurity Section -->
-            <div id="cybersecurity" class="content-section">
-                <h2>Cybersecurity</h2>
-                <p>In a world where digital threats are constantly evolving, our cybersecurity solutions are designed to protect your critical data and systems. We offer comprehensive security strategies to keep your business safe from potential cyberattacks.</p>
+            <div id="menuSnack" class="menu-section">
+                <h2>Menu Snack</h2>
+                <p>Pilihan snack ringan untuk teman santai Anda sambil menyeruput kopi.</p>
+                <div class="menu-grid">
+                    <div class="menu-item">
+                        <h3>Cookies</h3>
+                        <p>Cookies cokelat renyah dengan taburan choco chips.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Brownies</h3>
+                        <p>Brownies cokelat yang lembut dan kaya rasa.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Donut</h3>
+                        <p>Donat empuk dengan berbagai topping manis pilihan.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Churros</h3>
+                        <p>Churros goreng garing dengan taburan gula kayu manis dan saus cokelat.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Croissant</h3>
+                        <p>Kue kering berlapis-lapis dengan tekstur yang renyah dan mentega yang kaya rasa.</p>
+                    </div>
+                    <div class="menu-item">
+                        <h3>Muffin</h3>
+                        <p>Muffin lembut dengan berbagai varian rasa seperti blueberry atau cokelat.</p>
+                    </div>
+                </div>
+                <p><strong>Total Menu Snack:</strong> 6 item</p>
             </div>
-
-            <!-- Data Analytics Section -->
-            <div id="data" class="content-section">
-                <h2>Data Analytics</h2>
-                <p>Data is the new oil, and our analytics solutions help businesses harness the power of data. From predictive analytics to real-time insights, we help you make informed decisions and stay ahead of the competition.</p>
-            </div>
-        </section>
+        </div>
     </div>
 
-    <!-- Footer -->
     <footer>
-        <div>&copy; 2024 Tech Innovators. All rights reserved.</div>
+        <p>&copy; 2024 Kopi Sejati. All rights reserved.</p>
         <div class="social-media">
-            <a href="#">Facebook</a>
-            <a href="#">Twitter</a>
-            <a href="#">LinkedIn</a>
+            <a href="https://www.instagram.com/nur.humamm/profilecard/?igsh=MXB5eGg5c2Vob2lkMQ==">Instagram</a>
+            <a href="https://www.facebook.com/nurul.humam.77?mibextid=ZbWKwL">Facebook</a>
+            <a href="https://github.com/nurhumam">GitHub</a>
         </div>
     </footer>
 </body>
