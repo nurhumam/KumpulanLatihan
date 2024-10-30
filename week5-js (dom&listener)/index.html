@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Pegawai Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Perusahaan Minang</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Formulir</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <aside class="container">
+        <h3>Data Pegawai</h3>
+        <form id="pegawaiForm">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" placeholder="Masukkan nama Anda">
+            <span class="error" id="nameError">Nama harus diisi</span>
+
+            <label for="nik">Nik:</label>
+            <input type="text" id="nik" name="nik" placeholder="Masukkan NIK Anda">
+            <span class="error" id="nikError">NIK harus diisi</span>
+
+            <label for="alamat">Alamat:</label>
+            <input type="text" id="alamat" name="alamat" placeholder="Masukkan alamat Anda">
+            <span class="error" id="alamatError">Alamat harus diisi</span>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Masukkan email Anda">
+            <span class="error" id="emailError">Email harus diisi</span>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </aside>
+    <script src="script.js"></script>
+</body>
+</html>
